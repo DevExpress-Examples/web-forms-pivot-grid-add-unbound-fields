@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/ASPxPivotGrid_CalculateUnboundData/Default.aspx) (VB: [Default.aspx](./VB/ASPxPivotGrid_CalculateUnboundData/Default.aspx))
-* [Default.aspx.cs](./CS/ASPxPivotGrid_CalculateUnboundData/Default.aspx.cs) (VB: [Default.aspx](./VB/ASPxPivotGrid_CalculateUnboundData/Default.aspx))
+* [Default.aspx.cs](./CS/ASPxPivotGrid_CalculateUnboundData/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_CalculateUnboundData/Default.aspx.vb))
 <!-- default file list end -->
 # How to Add Unbound Fields
 
