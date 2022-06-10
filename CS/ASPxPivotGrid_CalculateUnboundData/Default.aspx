@@ -50,9 +50,9 @@
                     </DataBindingSerializable>
                 </dx:PivotGridField>
                 <dx:PivotGridField ID="fieldPriceWithDiscount" Area="DataArea"
-                      AreaIndex="3" UnboundType="Decimal"
-                      FieldName="PriceWithDiscount"
-                      Caption="Price with Discount">
+                      AreaIndex="3" 
+                      Caption="Price with Discount"
+                      CellFormat-FormatType ="Numeric" CellFormat-FormatString = "c0">
                     <DataBindingSerializable>
                         <dx:ExpressionDataBinding Expression="[fieldExtendedPrice] * (1 - [fieldDiscount])" />
                     </DataBindingSerializable>
