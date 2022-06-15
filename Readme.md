@@ -4,9 +4,11 @@
 <!-- default badges end -->
 # Pivot Grid for Web Forms - How to Add Unbound Fields
 
-The following example shows how to add unbound fields to the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid).
+The following example shows how to add calculated fields to the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid).
+Calculated fields display the result of calculated expressions. Each calculated field has a binding expression that can be a formula or aggregate function.
 
-*Unbound fields* can be supplied with data using custom logic. To supply an unbound field with data, use the [ExpressionBindingBase](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.ExpressionBindingBase) class, and pass to the [Expression](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.ExpressionBindingBase.Expression) property a string expression to calculate.
+To supply a calculated field with data, use the [ExpressionDataBinding](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ExpressionDataBinding) class, and pass to the [Expression](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.ExpressionBindingBase.Expression) property a string expression to calculate.
+
 
 In this example, the *DiscountAmount* and *PriceWithDiscount* pivot grid's fields are the unbound ones:
 ```aspx
