@@ -11,7 +11,7 @@ Calculated fields display the result of calculated expressions. Each calculated 
 To supply a calculated field with data, use the [ExpressionDataBinding](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ExpressionDataBinding) class, and pass to the [Expression](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.ExpressionBindingBase.Expression) property a string expression to calculate.
 
 
-In this example, the *DiscountAmount* and *PriceWithDiscount* pivot grid's fields are the unbound ones:
+In this example, the *DiscountAmount* and *PriceWithDiscount* pivot grid's fields are calculated fields:
 ```aspx
 <dx:PivotGridField ID="fieldDiscountAmount" Area="DataArea"
         AreaIndex="2"
@@ -37,5 +37,5 @@ In this example, the *DiscountAmount* and *PriceWithDiscount* pivot grid's field
 
 ## Documentation
 
-- [Unbound Fields](https://docs.devexpress.com/AspNet/7259/components/pivot-grid/binding-to-data/unbound-fields)
+- [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.devx/AspNet/7259/components/pivot-grid/binding-to-data/bind-pivot-grid-field-to-calculated-expression)
 - [Data Binding API](https://docs.devexpress.com/CoreLibraries/401533/devexpress-pivot-grid-core-library/data-binding-api)
