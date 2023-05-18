@@ -37,5 +37,5 @@ In this example, the *DiscountAmount* and *PriceWithDiscount* pivot grid's field
 
 ## Documentation
 
-- [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.devx/AspNet/7259/components/pivot-grid/binding-to-data/bind-pivot-grid-field-to-calculated-expression)
+- [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.com/AspNet/7259/components/pivot-grid/binding-to-data/bind-pivot-grid-field-to-calculated-expression)
 - [Data Binding API](https://docs.devexpress.com/CoreLibraries/401533/devexpress-pivot-grid-core-library/data-binding-api)
