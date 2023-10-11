@@ -30,7 +30,7 @@ In this example, the *DiscountAmount* and *PriceWithDiscount* pivot grid's field
 </dx:PivotGridField>
 ```
 
-## Files to Look At
+## Files to Review
 
 * [Default.aspx](./CS/ASPxPivotGrid_CalculateUnboundData/Default.aspx) (VB: [Default.aspx](./VB/ASPxPivotGrid_CalculateUnboundData/Default.aspx))
 * [Default.aspx.cs](./CS/ASPxPivotGrid_CalculateUnboundData/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_CalculateUnboundData/Default.aspx.vb))
